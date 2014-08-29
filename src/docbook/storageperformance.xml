@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V5.05b//EN"
+                   "http://www.oasis-open.org/docbook/xml/5.0b5/dtd/docbook.dtd" [
+<!ENTITY foreword SYSTEM "foreword.xml">
+<!ENTITY introduction SYSTEM "introduction.xml">
+]>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>Introduction to storage performance</title>
+  <info>
+     <author>
+       <personname>Pontus Freyhult</personname>
+       <email>pontus_storage_book@soua.net</email>
+     </author> 
+  </info>
+  &foreword;
+  &introduction;
+</book>
