@@ -3,6 +3,8 @@
                    "http://www.oasis-open.org/docbook/xml/5.0b5/dtd/docbook.dtd" [
 <!ENTITY foreword SYSTEM "foreword.xml">
 <!ENTITY introduction SYSTEM "introduction.xml">
+<!ENTITY basicconcepts SYSTEM "basicconcepts.xml">
+<!ENTITY howadiskworks SYSTEM "howadiskworks.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" version="5.0">
   <title>Introduction to storage performance</title>
@@ -14,4 +16,6 @@
   </info>
   &foreword;
   &introduction;
+  &basicconcepts;
+  &howadiskworks;
 </book>
